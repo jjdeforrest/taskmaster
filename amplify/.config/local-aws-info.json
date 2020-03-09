@@ -1,0 +1,7 @@
+{
+    "taskmaster": {
+        "configLevel": "project",
+        "useProfile": true,
+        "profileName": "default"
+    }
+}

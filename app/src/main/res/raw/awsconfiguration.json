@@ -1,0 +1,43 @@
+{
+    "UserAgent": "aws-amplify-cli/0.1.0",
+    "Version": "0.1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "AppSync": {
+        "Default": {
+            "ApiUrl": "https://6yw2c7qexreirmpt5dcs5shv2e.appsync-api.us-west-2.amazonaws.com/graphql",
+            "Region": "us-west-2",
+            "AuthMode": "API_KEY",
+            "ApiKey": "da2-pohjtaymivdyzbfkr27tyk6xaa",
+            "ClientDatabasePrefix": "taskmaster_API_KEY"
+        }
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-west-2:3e506a74-b694-4c1f-8ee1-d39769c2810f",
+                "Region": "us-west-2"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-west-2_gdAFsFiQm",
+            "AppClientId": "p9k4ijhqh8ag30bbco06d3o9s",
+            "AppClientSecret": "1cqjkba91vl46c2lvgsemko19g4d5k1p4lgje3hjoece99quthk",
+            "Region": "us-west-2"
+        }
+    },
+    "Auth": {
+        "Default": {
+            "authenticationFlowType": "USER_SRP_AUTH"
+        }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "taskmasterf92f7e2dbb5a4af1abc60d2cd3b84ea2101011-taskmaster",
+            "Region": "us-west-2"
+        }
+    }
+}
